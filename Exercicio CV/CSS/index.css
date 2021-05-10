@@ -1,0 +1,106 @@
+:root {
+    --font-family: 'Oswald', sans-serif;
+    --colorText: rgb(214, 211, 33);
+    --colorBackground: rgb(153, 153, 152);
+}
+
+.conteudo {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+header {
+    background-color: var(--colorBackground);
+    min-width: 350px;
+    padding-top: 180px;
+    float: left;
+    height: 100vh;
+}
+
+figure {
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid var(--colorText);
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    line-height: 35px;
+}
+
+header ul li a {
+    color: var(--colorText);
+    text-decoration: none;
+}
+
+header ul li :hover {
+    text-decoration: underline;
+}
+
+.img {
+    position: sticky;
+    top: 100%;
+}
+
+.conteudo {
+    padding-top: 35vh;
+    padding-left: 60vh;
+    margin-right: 30px;
+
+}
+
+.nome {
+    color: var(--colorText);
+}
+
+#sobre {
+    color: var(--colorText);
+	}
+
+#conhecimentos {
+    color: var(--colorText);
+}
+
+#objetivos {
+    color:var(--colorText);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.email {
+    color:var(--colorText);
+}
+
+.botoes {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
